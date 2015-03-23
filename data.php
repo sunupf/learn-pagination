@@ -37,7 +37,7 @@
    <?php
     if($page == 1){
     ?>
-      <li class="">First</li>
+      <li><span>First</span></li>
     <?php
         }else{
     ?>
@@ -58,8 +58,18 @@
         }
       }
     ?>
-    <li><span>Last</span></li>
-</ul>
+    <?php
+    if($page == $totalPage){
+    ?>
+      <li><span>Last</span></li>
+    <?php
+        }else{
+    ?>
+      <li><a href="?page=<?php echo $totalPage ?>">Last</a></li>
+    <?php 
+        }
+    ?>
+ </ul>
   <script src="bower_components/jquery/dist/jquery.min.js"></script>
   <script>
     $.ajax({
