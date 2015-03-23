@@ -1,0 +1,28 @@
+{
+  "name": "learn-pagination",
+  "version": "0.1",
+  "homepage": "https://github.com/sunupf/learn-pagination",
+  "authors": [
+    "kokok <sunupf@gmail.com>"
+  ],
+  "description": "learn easy pagination :v",
+  "main": "data.php",
+  "keywords": [
+    "pagination",
+    "easy",
+    "not",
+    "best",
+    "practice"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "uikit": "~2.18.0"
+  }
+}
